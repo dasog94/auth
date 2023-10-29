@@ -1,0 +1,6 @@
+server:
+  servlet:
+    session:
+      cookie:
+        path: / # 적용될 URL 경로를 나타냅니다. 예를 들어, path를 "/"로 설정하면 해당 도메인의 모든 경로에서 쿠키가 사용될 수 있습니다.
+        name: SESSION # 이름을 지정합니다.
